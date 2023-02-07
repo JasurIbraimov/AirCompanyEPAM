@@ -1,6 +1,6 @@
-package Planes;
+package com.jasur.epam.planes;
 
-import models.MilitaryType;
+import com.jasur.epam.models.MilitaryType;
 
 import java.util.Objects;
 

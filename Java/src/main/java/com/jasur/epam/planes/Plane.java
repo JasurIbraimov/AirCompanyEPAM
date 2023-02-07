@@ -1,4 +1,4 @@
-package Planes;
+package com.jasur.epam.planes;
 
 import java.util.Objects;
 

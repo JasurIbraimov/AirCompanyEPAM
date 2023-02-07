@@ -1,7 +1,7 @@
-package Planes;
+package com.jasur.epam.planes;
 
-import models.ClassificationLevel;
-import models.ExperimentalTypes;
+import com.jasur.epam.models.ClassificationLevel;
+import com.jasur.epam.models.ExperimentalTypes;
 
 public class ExperimentalPlane extends Plane{
     private final ExperimentalTypes type;

@@ -1,16 +1,15 @@
-import Planes.ExperimentalPlane;
-import models.ClassificationLevel;
-import models.ExperimentalTypes;
-import models.MilitaryType;
+import com.jasur.epam.planes.ExperimentalPlane;
+import com.jasur.epam.models.ClassificationLevel;
+import com.jasur.epam.models.ExperimentalTypes;
+import com.jasur.epam.models.MilitaryType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
+import com.jasur.epam.planes.MilitaryPlane;
+import com.jasur.epam.planes.PassengerPlane;
+import com.jasur.epam.planes.Plane;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Logger;
 
 public class AirportTest {
     private static final List<Plane> planes = Arrays.asList(

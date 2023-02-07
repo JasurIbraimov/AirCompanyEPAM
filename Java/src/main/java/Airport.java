@@ -1,13 +1,11 @@
-import Planes.ExperimentalPlane;
-import models.ClassificationLevel;
-import models.ExperimentalTypes;
-import models.MilitaryType;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
+import com.jasur.epam.planes.ExperimentalPlane;
+import com.jasur.epam.models.ClassificationLevel;
+import com.jasur.epam.models.MilitaryType;
+import com.jasur.epam.planes.MilitaryPlane;
+import com.jasur.epam.planes.PassengerPlane;
+import com.jasur.epam.planes.Plane;
 
 import java.util.*;
-import java.util.function.ToIntFunction;
 
 public class Airport {
     private final List<? extends Plane> planes;
